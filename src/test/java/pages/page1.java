@@ -10,6 +10,6 @@ public class page1 extends Driver1 {
     @Test
     public void terst1(){
         ConfigBrowser.browser = BrowserTypes.FIREFOX; // anlamsiz
-        driver.get("https://demoqa.com/automation-practice-form");
+        driver.get("https://demoqa.com/automation-practice-form"); //
     }
 }
